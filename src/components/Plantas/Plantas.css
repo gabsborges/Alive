@@ -124,9 +124,12 @@
 }
 
 
-@media (max-width: 555px) {
+@media (max-width: 475px) {
     .plantas h1 {
-        font-size: 40px;
-        margin-left: 32px;
+        font-size: 38px;
     }
+    .plantas-area-imagem {
+        width: 304px;
+    }
+
 }

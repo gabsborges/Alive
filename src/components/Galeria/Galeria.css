@@ -111,9 +111,27 @@
     }
 }
 
+@media (max-width: 610px) {
+    .galeria .rec-carousel {
+        height: 420pxs !important;
+    }
+}
+
+@media (max-width: 585px) {
+    .galeria .rec-carousel {
+        height: 73vh !important;
+    }
+}
+
 @media (max-width: 555px) {
     .galeria h1 {
         font-size: 40px;
         margin-left: 32px;
+    }
+}
+
+@media (max-width: 455px) {
+    .galeria .rec-carousel {
+        height: 65vh !important;
     }
 }

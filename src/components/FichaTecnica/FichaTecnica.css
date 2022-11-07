@@ -67,6 +67,19 @@
     text-align: center;
 }
 
+@media (max-width: 950px) {
+    .fichaTecnica-area-endereco {
+        flex-direction: column;
+        margin: 80px 0;
+    }
+}
+
+@media (max-width: 785px) {
+    .fichaTecnica h1 {
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 769px) {
     .fichaTecnica-area-itens {
         margin: 0px;
@@ -79,9 +92,8 @@
     }
 }
 
-@media (max-width: 950px) {
-    .fichaTecnica-area-endereco {
-        flex-direction: column;
-        margin: 80px 0;
+@media (max-width: 555px) {
+    .fichaTecnica h1 {
+        font-size: 40px;
     }
 }
