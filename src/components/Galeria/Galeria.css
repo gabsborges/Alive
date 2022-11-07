@@ -135,3 +135,9 @@
         height: 65vh !important;
     }
 }
+
+@media (max-width: 390px) {
+    .galeria .rec-carousel {
+        height: 55vh !important;
+    }
+}

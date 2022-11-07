@@ -154,6 +154,13 @@
     }
 }
 
+@media (max-width: 651px) {
+    .encontreSeuSonho {
+        text-align: center;
+        height: 138rem;
+    }
+}
+
 @media (max-width: 555px) {
     .encontreSeuSonho h1 {
         font-size: 40px;
@@ -161,14 +168,6 @@
     }
     .card-box-texto h1{
         font-size: 22px;
-    }
-
-}
-
-@media (max-width: 651px) {
-    .encontreSeuSonho {
-        text-align: center;
-        height: 138rem;
     }
 }
 
@@ -182,5 +181,13 @@
         letter-spacing: 7px;
     }
 
+}
+
+
+@media (max-width: 450px) {
+    .encontreSeuSonho h1 {
+        font-size: 22px;
+        letter-spacing: 6px;
+    }
 }
 

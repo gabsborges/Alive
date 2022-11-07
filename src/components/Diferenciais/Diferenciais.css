@@ -109,3 +109,10 @@
         margin-left: 1rem;
     }
 }
+
+@media (max-width: 400px) {
+    .diferenciais-box-texto li {
+        font-size: 15px;
+        margin-left: 14px;
+    }
+}
