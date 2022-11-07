@@ -6,7 +6,6 @@
 .fichaTecnica h1 {
     text-align: center;
     color: black;
-    margin-left: 90px;
     font-size: 58px;
     font-weight: 600;
 }
@@ -83,5 +82,6 @@
 @media (max-width: 950px) {
     .fichaTecnica-area-endereco {
         flex-direction: column;
+        margin: 80px 0;
     }
 }

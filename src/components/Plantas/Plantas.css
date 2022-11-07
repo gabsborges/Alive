@@ -122,3 +122,11 @@
         font-size: 44px;
     }
 }
+
+
+@media (max-width: 555px) {
+    .plantas h1 {
+        font-size: 40px;
+        margin-left: 32px;
+    }
+}
