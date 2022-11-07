@@ -1,0 +1,112 @@
+.galeria {
+    margin: 0 auto;
+
+}
+
+.galeria h1 {
+    text-align: left;
+    color: black;
+    margin-left: 90px;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.galeria h1 span {
+    color: #f9a328;
+}
+
+.tracado {
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+
+.galeria-carouselArea {
+    margin: 40px 0;
+    width: 98.75vw;
+}
+
+.galeria-carouselArea img {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria .rec-dot {
+    display: block;
+}
+
+.galeria .rec-arrow {
+    display: none;
+}
+
+.galeria .rec-dot {
+    box-shadow: 0 0 1px 3px rgb(249, 163, 40);
+}
+
+.galeria .rec-dot:hover {
+    box-shadow: 0 0 1px 3px rgb(249, 163, 40);
+}
+
+.galeria .rec-dot:focus {
+    box-shadow: 0 0 1px 3px rgb(249, 163, 40);
+}
+
+.galeria .rec-dot_active {
+    background-color: #f9a328;
+}
+
+.galeria .rec-slider {
+    height: 420px;
+}
+
+.galeria .rec-carousel-wrapper {
+    margin-bottom: 80px;
+}
+.galeria .rec-carousel {
+    width: 100%;
+    height: 90vh !important;
+}
+
+.galeria .rec-slider-container {
+    margin: 0;
+}
+
+
+.galeria-carouselArea-texto {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0px;
+    right: 0px;
+    width: 400px;
+    text-align: left;
+    padding: 0 0 10px 20px;
+}
+
+.galeria-carouselArea-texto p{
+    text-align: left;
+    color: #e9e9e9;
+    margin: 10px;
+    padding: 0;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.galeria-carouselArea-texto strong{
+    text-align: left !important;
+    font-weight: 400;
+    font-size: 30px !important;
+}
+
+@media (max-width: 940px) {
+    .galeria h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 785px) {
+    .galeria h1 {
+        font-size: 44px;
+    }
+}
