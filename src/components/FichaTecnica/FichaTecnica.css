@@ -97,3 +97,9 @@
         font-size: 40px;
     }
 }
+
+@media (max-width: 480px) {
+    .fichaTecnica-area-itens li {
+        font-size: 10px;
+    }
+}
