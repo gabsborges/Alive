@@ -56,9 +56,6 @@
     background-color: #f9a328;
 }
 
-.galeria .rec-slider {
-    height: 420px;
-}
 
 .galeria .rec-carousel-wrapper {
     margin-bottom: 80px;
@@ -130,9 +127,15 @@
     }
 }
 
-@media (max-width: 455px) {
+@media (max-width: 510px) {
     .galeria .rec-carousel {
         height: 65vh !important;
+    }
+}
+
+@media (max-width: 475px) {
+    .galeria .rec-carousel {
+        height: 55vh !important;
     }
 }
 
