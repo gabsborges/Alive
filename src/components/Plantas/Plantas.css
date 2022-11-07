@@ -132,5 +132,7 @@
     .plantas-area-imagem {
         width: 304px;
     }
-
+    .plantas-area-icones {
+        margin: 10px;
+    }
 }
