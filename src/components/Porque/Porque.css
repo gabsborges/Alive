@@ -74,6 +74,9 @@
     .iconesWrapper img{
         width: 88px;
     }
+    .porque .rec-carousel {
+        height: 254px !important;
+    }
 }
 
 @media (max-width: 565px) {
@@ -82,6 +85,9 @@
     }
     .iconesWrapper p {
         font-size: 10px;
+    }
+    .porque .rec-carousel {
+        height: 230px !important;
     }
 }
 
