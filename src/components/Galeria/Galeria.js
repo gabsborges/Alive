@@ -11,7 +11,7 @@ function Galeria() {
             itemsToScroll={1}
             >
                 <div className='galeria-carouselArea'>
-                    <img src='./UNIT-BELA-VISTA_BIKE_SHARE.png' alt='Imagem do bicicletario' />
+                    <img className='corrigirImg' src='./UNIT-BELA-VISTA_BIKE_SHARE.png' alt='Imagem do bicicletario' />
                     <div className='galeria-carouselArea-texto'>
                         <p><strong><span>Bici</span>cletário</strong></p>
                         <p>*Imagem preliminar sujeito a alterações</p>
