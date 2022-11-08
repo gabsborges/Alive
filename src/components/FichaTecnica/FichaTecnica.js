@@ -3,7 +3,7 @@ import './FichaTecnica.css'
 function FichaTecnica() {
     return (
         <div className='fichaTecnica'>
-            <h1 id='fichaTecnica'><span>f</span>icha técnica</h1>
+            <h1 id='fichaTecnica'><span>ficha</span> técnica</h1>
             <div className="fichaTecnica-area">
                     <div className="fichaTecnica-area-endereco">
                         <div className="fichaTecnica-area-itens">

@@ -25,7 +25,7 @@
 .encontreSeuSonho img {
     color: #CECCCB;
     width: 26px;
-    margin: 20px 0;
+    margin: 0;
 }
 
 .cards {
@@ -36,7 +36,7 @@
 }
 
 .card-inner {
-    margin: 0 10px;
+    margin: 20px 10px;
     transition: 200ms ease-in;
 }
 
@@ -122,10 +122,9 @@
         font-size: 62px;
     }
     .card-inner-box h1 {
-        font-size: 22px;
+        font-size: 22px !important;
     }
 }
-
 
 @media (max-width: 785px) {
     .encontreSeuSonho h1 {
@@ -180,7 +179,6 @@
         font-size: 17px;
         letter-spacing: 7px;
     }
-
 }
 
 
@@ -190,4 +188,3 @@
         letter-spacing: 6px;
     }
 }
-

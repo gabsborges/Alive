@@ -1,6 +1,5 @@
 .plantas {
     margin: 0 auto;
-
 }
 
 .plantas h1 {
@@ -95,11 +94,9 @@
     background-color: #f9a328;
 }
 
-
 .plantas .rec-carousel-wrapper {
     margin-bottom: 80px;
 }
-
 
 @media (max-width: 940px) {
     .plantas h1 {
@@ -122,7 +119,6 @@
         font-size: 44px;
     }
 }
-
 
 @media (max-width: 475px) {
     .plantas h1 {

@@ -1,16 +1,16 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
+    <Router>
       <Routes>
           <Route index element={<Home/>}/>
-          {/* <Route path="/contato" element={<Contato />} /> */}
+          {/* <Route path="/obrigado" element={<obrigado />} /> */}
       </Routes>
-    </BrowserRouter>
+    </Router>
     </div>
   );
 }
